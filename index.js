@@ -270,7 +270,10 @@ conn.sendMessage(id, ' _Sama sama, semoga harimu menyenangkan :)_ ' ,MessageType
 else if (text == 'Thanks'){
 conn.sendMessage(id, ' _Sama sama, semoga harimu menyenangkan :)_ ' ,MessageType.text);
 }
-
+}
+else if (text == '#stiker'){
+conn.sendMessage(id, 'bukan #stiker,tetapi #sticker' ,MessageType.text);
+}
 // FiturFoundz
 
 if (text.includes('!nulis')){
